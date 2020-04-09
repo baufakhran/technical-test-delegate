@@ -6,6 +6,21 @@
   background-image: url('https://haskayne.ucalgary.ca/sites/default/files/styles/ucws_hero_cta_desktop_short/public/2019-09/Banner_block_Tall_1500_600_DBA_Apply_Online2.jpg?itok=WL1MUQqM');
 }
 
+.my-card-body {
+  display: flex;
+}
+
 body {
   background-color: #efefef;
+}
+
+@media only screen and (max-width: 600px) {
+  .my-card-body {
+    display: block;
+    text-align: justify;
+    padding: 0 auto;
+  }
+  .my-card-img {
+    margin-left: 22.5%;
+  }
 }

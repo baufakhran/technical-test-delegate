@@ -3,11 +3,12 @@ import { Card } from 'react-bootstrap'
 export default function CardNews(props) {
   return (
     <Card className="mt-2">
-      <Card.Body style={{ display: 'flex' }}>
+      <Card.Body className="my-card-body">
         <div>
           <img
             style={{ height: '150px', width: '250px' }}
             src={props.urlImage}
+            className="my-card-img"
           />
         </div>
         <div className="ml-4">
