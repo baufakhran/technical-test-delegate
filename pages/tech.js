@@ -7,13 +7,13 @@ import News from '../components/News'
 
 export default function home() {
   const [iderror, idLoading, idTech] = useFetcher(
-    `http://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
+    `https://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
   )
   const [usError, usLoading, usTech] = useFetcher(
-    `http://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
+    `https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
   )
   const [sgError, sgLoading, sgTech] = useFetcher(
-    `http://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
+    `https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
   )
 
   return (

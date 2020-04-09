@@ -11,13 +11,13 @@ export default function home() {
   const [classPop, setClassPop] = useState('selected-btn')
   const [classAll, setClassAll] = useState('my-btn')
   const [error, isLoading, idBusiness] = useFetcher(
-    `http://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
+    `https://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
   )
   const [usError, usLoading, usBusiness] = useFetcher(
-    `http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
+    `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
   )
   const [sgError, sgLoading, sgBusiness] = useFetcher(
-    `http://newsapi.org/v2/top-headlines?country=sg&category=business&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
+    `https://newsapi.org/v2/top-headlines?country=sg&category=business&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
   )
   return (
     <>
