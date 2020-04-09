@@ -10,6 +10,16 @@
   display: flex;
 }
 
+.my-card-news {
+  margin-left: 20px;
+}
+
+.my-card-img {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
+
 body {
   background-color: #efefef;
 }
@@ -21,6 +31,11 @@ body {
     padding: 0 auto;
   }
   .my-card-img {
-    margin-left: 22.5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 200px;
+  }
+  .my-card-news {
+    margin-left: 0px;
   }
 }
