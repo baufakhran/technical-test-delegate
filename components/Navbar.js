@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function MyNavbar() {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar bg="light" variant="light" fixed="top">
       <Navbar.Brand href="#home">BT-News</Navbar.Brand>
       <Nav className="mr-auto">
         <Link href="/">

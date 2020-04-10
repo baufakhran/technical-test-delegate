@@ -1,8 +1,12 @@
 .tech-header {
+  margin-top: 55px;
+  height: 200px;
   background-image: url('https://airbus-h.assetsadobe2.com/is/image/content/dam/corporate-topics/innovation/Innovation-future-technology.jpg?wid=1920&fit=fit,1&qlt=85,0');
 }
 
 .business-header {
+  margin-top: 55px;
+  height: 200px;
   background-image: url('https://haskayne.ucalgary.ca/sites/default/files/styles/ucws_hero_cta_desktop_short/public/2019-09/Banner_block_Tall_1500_600_DBA_Apply_Online2.jpg?itok=WL1MUQqM');
 }
 

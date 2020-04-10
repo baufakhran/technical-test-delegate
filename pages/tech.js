@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navbar from '../components/Navbar'
 import Head from 'next/head'
 import useFetcher from '../hooks/useFetcher'
@@ -29,7 +29,9 @@ export default function home() {
       <Navbar />
       <Jumbotron fluid className="tech-header">
         <Container>
-          <h2 style={{ color: 'white' }}>Technology</h2>
+          <h2 style={{ color: 'white' }} className="mt-3">
+            Technology
+          </h2>
         </Container>
       </Jumbotron>
       <Container>

@@ -2,14 +2,10 @@ import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Head from 'next/head'
 import useFetcher from '../hooks/useFetcher'
-import CardNews from '../components/CardNews'
 import { Container, Spinner, Jumbotron } from 'react-bootstrap'
-import api from '../api'
 import News from '../components/News'
 
 export default function home() {
-  const [classPop, setClassPop] = useState('selected-btn')
-  const [classAll, setClassAll] = useState('my-btn')
   const [error, isLoading, idBusiness] = useFetcher(
     `https://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=1e9011ff060349a8b5a3c0b9ca75f853`
   )
@@ -33,7 +29,7 @@ export default function home() {
       <Navbar />
       <Jumbotron fluid className="business-header">
         <Container>
-          <h2>Business</h2>
+          <h2 className="mt-3">Business</h2>
         </Container>
       </Jumbotron>
       <Container>
@@ -50,7 +46,7 @@ export default function home() {
         {idBusiness.articles && (
           <News
             className="mb-4"
-            country={'United States'}
+            country={'Indonesia'}
             data={idBusiness.articles}
           ></News>
         )}
