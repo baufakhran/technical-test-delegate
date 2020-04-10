@@ -60,7 +60,8 @@ export default function home() {
             data={sgBusiness.articles}
           ></News>
         )}
-        <hr></hr>
+        <hr style={{ marginBottom: '0px', borderWidth: '2px' }}></hr>
+        <small className="mb-2">Source : newsapi.org</small>
       </Container>
     </>
   )

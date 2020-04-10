@@ -4,7 +4,7 @@ export default function News({ country, data }) {
   let News = data.filter((el, index) => index < 8)
   return (
     <>
-      <h2>{country}</h2>
+      <h2 className="mt-2">{country}</h2>
       {News.map((el, id) => {
         return (
           <CardNews
