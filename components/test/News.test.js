@@ -40,7 +40,7 @@ let newsArticle = [
   },
 ]
 
-test('Link changes the class when hovered', () => {
+test('Should render news arcticles', () => {
   const { getByText } = render(
     <News className="mb-4" country={'United States'} data={newsArticle}></News>
   )

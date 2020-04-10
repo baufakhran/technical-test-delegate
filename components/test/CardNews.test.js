@@ -2,7 +2,7 @@ import CardNews from '../CardNews'
 import { render, cleanup } from '@testing-library/react'
 afterEach(cleanup)
 
-test('Link changes the class when hovered', () => {
+test('It should have title and description of the news', () => {
   const { getByText } = render(
     <CardNews
       title={'ini title'}

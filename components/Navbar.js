@@ -3,8 +3,14 @@ import Link from 'next/link'
 
 export default function MyNavbar() {
   return (
-    <Navbar bg="light" variant="light" fixed="top">
-      <Navbar.Brand href="#home">BT-News</Navbar.Brand>
+    <Navbar bg="light" variant="light" fixed="top" style={{ height: '55px' }}>
+      <Navbar.Brand>
+        <Link href="/">
+          <a className="nav-link" style={{ color: 'black', fontWeight: '500' }}>
+            BT-News
+          </a>
+        </Link>
+      </Navbar.Brand>
       <Nav className="mr-auto">
         <Link href="/">
           <a className="nav-link">Business</a>
